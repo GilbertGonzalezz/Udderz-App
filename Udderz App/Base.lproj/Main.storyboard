@@ -25,43 +25,55 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DQn-nN-M3a" userLabel="Middle View">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="278.5"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Udderz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pXD-xt-Bbw">
-                                                <rect key="frame" x="20" y="20" width="120" height="46"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Udderz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pXD-xt-Bbw">
+                                                <rect key="frame" x="147" y="116.5" width="120" height="45.5"/>
                                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="pXD-xt-Bbw" firstAttribute="centerX" secondItem="DQn-nN-M3a" secondAttribute="centerX" id="3JF-PR-qVE"/>
+                                            <constraint firstItem="pXD-xt-Bbw" firstAttribute="centerY" secondItem="DQn-nN-M3a" secondAttribute="centerY" id="lmV-N2-wWJ"/>
+                                        </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NoM-mr-3Zk" userLabel="Top View">
                                         <rect key="frame" x="0.0" y="286.5" width="414" height="279"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Please Enter The Address Here " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4pi-WC-Zeq">
-                                                <rect key="frame" x="20" y="20" width="338" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please Enter The Address Here " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4pi-WC-Zeq">
+                                                <rect key="frame" x="38.5" y="124.5" width="337" height="30"/>
                                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="d83-oU-bD3">
-                                                <rect key="frame" x="141" y="79" width="97" height="34"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="d83-oU-bD3">
+                                                <rect key="frame" x="137" y="184.5" width="140" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="140" id="Fhp-ob-hKB"/>
+                                                    <constraint firstAttribute="height" constant="50" id="dcQ-EF-3Bh"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="d83-oU-bD3" firstAttribute="top" secondItem="4pi-WC-Zeq" secondAttribute="bottom" constant="30" id="2KU-am-w9T"/>
+                                            <constraint firstItem="4pi-WC-Zeq" firstAttribute="leading" secondItem="NoM-mr-3Zk" secondAttribute="leading" constant="38.5" id="6FF-4D-abD"/>
+                                            <constraint firstItem="4pi-WC-Zeq" firstAttribute="centerY" secondItem="NoM-mr-3Zk" secondAttribute="centerY" id="85t-mX-iiY"/>
+                                            <constraint firstItem="4pi-WC-Zeq" firstAttribute="centerX" secondItem="NoM-mr-3Zk" secondAttribute="centerX" id="LMh-B6-KCJ"/>
+                                            <constraint firstItem="d83-oU-bD3" firstAttribute="top" secondItem="4pi-WC-Zeq" secondAttribute="bottom" constant="30" id="WdC-Dt-YXS"/>
+                                            <constraint firstItem="4pi-WC-Zeq" firstAttribute="centerX" secondItem="NoM-mr-3Zk" secondAttribute="centerX" id="aHN-CB-jUj"/>
+                                            <constraint firstItem="4pi-WC-Zeq" firstAttribute="centerY" secondItem="NoM-mr-3Zk" secondAttribute="centerY" id="bq3-Ru-nVw"/>
+                                            <constraint firstItem="d83-oU-bD3" firstAttribute="centerX" secondItem="NoM-mr-3Zk" secondAttribute="centerX" id="uoU-xU-Ocb"/>
+                                        </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CqH-mT-CS8" userLabel="Bottom View">
                                         <rect key="frame" x="0.0" y="573.5" width="414" height="278.5"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gxQ-uf-Jgp">
-                                                <rect key="frame" x="20" y="20" width="133" height="48"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gxQ-uf-Jgp">
+                                                <rect key="frame" x="140.5" y="115" width="133" height="48"/>
                                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <state key="normal" title="Click Here">
@@ -69,7 +81,10 @@
                                                 </state>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="gxQ-uf-Jgp" firstAttribute="centerX" secondItem="CqH-mT-CS8" secondAttribute="centerX" id="cep-ME-ZjN"/>
+                                            <constraint firstItem="gxQ-uf-Jgp" firstAttribute="centerY" secondItem="CqH-mT-CS8" secondAttribute="centerY" id="ti9-Tc-8e0"/>
+                                        </constraints>
                                     </view>
                                 </subviews>
                             </stackView>
