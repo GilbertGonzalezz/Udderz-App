@@ -15,6 +15,7 @@
 		081AF38F25CBB7DD008187BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 081AF38D25CBB7DD008187BB /* LaunchScreen.storyboard */; };
 		081AF39A25CBB7DD008187BB /* Udderz_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081AF39925CBB7DD008187BB /* Udderz_AppTests.swift */; };
 		081AF3A525CBB7DD008187BB /* Udderz_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081AF3A425CBB7DD008187BB /* Udderz_AppUITests.swift */; };
+		081AF3B625CBCC2F008187BB /* moo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 081AF3B525CBCC2F008187BB /* moo.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		081AF3A025CBB7DD008187BB /* Udderz AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Udderz AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		081AF3A425CBB7DD008187BB /* Udderz_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Udderz_AppUITests.swift; sourceTree = "<group>"; };
 		081AF3A625CBB7DD008187BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		081AF3B525CBCC2F008187BB /* moo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = moo.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				081AF38825CBB7DA008187BB /* Main.storyboard */,
 				081AF38B25CBB7DD008187BB /* Assets.xcassets */,
 				081AF38D25CBB7DD008187BB /* LaunchScreen.storyboard */,
+				081AF3B525CBCC2F008187BB /* moo.mp3 */,
 				081AF39025CBB7DD008187BB /* Info.plist */,
 			);
 			path = "Udderz App";
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				081AF3B625CBCC2F008187BB /* moo.mp3 in Resources */,
 				081AF38F25CBB7DD008187BB /* LaunchScreen.storyboard in Resources */,
 				081AF38C25CBB7DD008187BB /* Assets.xcassets in Resources */,
 				081AF38A25CBB7DA008187BB /* Main.storyboard in Resources */,
